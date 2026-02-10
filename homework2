@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         body: const SingleChildScrollView(
           child: Column(
             children: [
-              // الصورة الكبيرة أولاً (كما في screenshot)
+           (كما في screenshot)
               ImageSection(image: 'images/lake.jpg'),
               TitleSection(
                 name: 'Oeschinen Lake Campground',
@@ -142,7 +142,7 @@ class ButtonWithText extends StatelessWidget {
   }
 }
 
-// TextSection مع الوصف كما في screenshot
+
 class TextSection extends StatelessWidget {
   const TextSection({super.key});
 
