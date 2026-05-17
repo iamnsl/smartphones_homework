@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(flutter --version 2>&1)",
+      "PowerShell(flutter devices 2>&1)",
+      "PowerShell(cd \"c:\\\\Users\\\\NASSER\\\\OneDrive\\\\Dokumenty\\\\Simple_Flutter_CRUD_Login-main\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"flutter run -d chrome\" -WindowStyle Normal)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Read(//c/wamp64/www/simple_api-main/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\wamp64\\www\\simple_api-main"
+    ]
+  }
+}
